@@ -19,7 +19,7 @@ let direccionPrimerEnlace = enlaces[0].getAttribute("href");
 console.log("Direccio dl primer enlace: ", direccionPrimerEnlace);
 
 // Ejercicio 5 - Obtener la dirección del penúltimo enlace.
-let direccionPenultimoEnlace = enlaces[enlaces.length - 3].getAttribute("href");
+let direccionPenultimoEnlace = enlaces[enlaces.length - 2].getAttribute("href");
 console.log("Dirección del penúltimo enlace: ", direccionPenultimoEnlace);
 
 // Ejercicio 6 - Obtener el número de enlaces que apuntan a /wiki/Municipio
